@@ -49,7 +49,7 @@ svg {
     height: 100%;
 }
 .text {
-    padding-top: 500px;
+    padding-top: 450px;
     font-size: 24px;
     color: #fffefe;
     text-align: center;
@@ -67,7 +67,6 @@ svg {
         blink-caret .75s step-end forwards;
 }
 
-/* The typing effect */
 @keyframes typing {
     from {
         width: 0;
@@ -106,5 +105,9 @@ svg {
 @media (min-width: 650px){
     svg{
         height: 560px;
+    }
+   
+    .text {
+        padding-top: 500px;
     }
 }
