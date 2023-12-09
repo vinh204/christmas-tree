@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Snowburst+One&display=swap');
 body{
     margin:0;
     padding: 0;
@@ -12,7 +11,7 @@ body{
     overflow: hidden;
 }
 .content{
-    margin-top: 56px;
+    margin-top: 36px;
     color: #fff;
     text-align: center;
 }
@@ -110,5 +109,8 @@ svg {
    
     .text {
         padding-top: 500px;
+    }
+    .content{
+        margin-top: 56px;
     }
 }
