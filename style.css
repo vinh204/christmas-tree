@@ -47,7 +47,6 @@ svg {
     margin-top: -650px;
     width: 100%;
     height: 100%;
-    visibility: hidden;
 }
 .text {
     padding-top: 500px;
@@ -59,19 +58,13 @@ svg {
 
 .typewriter {
     overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
     border-right: 2px solid white;
-    /* The typwriter cursor */
     white-space: nowrap;
-    /* Keeps the content on a single line */
     margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em;
-    /* Adjust as needed */
     animation:
         typing 3.5s steps(40, end) forwards,
         blink-caret .75s step-end forwards;
-    animation-delay: 5s;
 }
 
 /* The typing effect */
